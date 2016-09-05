@@ -1,1 +1,71 @@
+body{
+	margin: 0 auto;
+	background: #00FF00 !important;
+	text-align: center;
+}
+header{
+	height: 250px;
+}
+div{
+	display: block;
+}
+footer p {
+	font-family: 'Baloo Paaji', cursive;
+	color: white;
+	font-size: 25px;
+}
 
+#container{
+  position: relative;
+  height: auto;
+  width: 75%;
+  margin: auto;
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+  padding: 50px;
+}
+.quote {
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 25px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+@media (max-width: 500px) {
+	body {
+		background-color: #00FF00;
+	}
+	header{
+		height: 100px;
+	}
+    p {
+    	font-size: 20px;
+    	line-height: 25px;
+    }
+    footer p {
+    	font-size: 20px;
+    }
+  	small {
+    	font-size: 16px;
+    }
+    footer{
+    	font-size: 12px;
+    }
+    #container {
+    	margin: 0px auto;
+    	padding: 20px;
+    }
+
+}
