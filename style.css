@@ -29,6 +29,10 @@ footer p {
 	font-family: 'Baloo Paaji', cursive;
 	font-size: 25px;
 }
+.author{
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 20px;
+}
 .clearfix:after {
     visibility: hidden;
     display: block;
